@@ -2,3 +2,4 @@ local obfuscated_script = {105,102,32,110,111,116,32,103,97,109,101,58,73,115,76
 local decoded = ''
 for i = 1, #obfuscated_script do decoded = decoded .. string.char(obfuscated_script[i]) end
 loadstring(decoded)()
+-- print
